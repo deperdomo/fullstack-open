@@ -1,0 +1,19 @@
+[build]
+  # Directorio base donde está el proyecto
+  base = "part2/phonebook"
+  
+  # Comando para construir el proyecto
+  command = "npm run build"
+  
+  # Directorio donde se generan los archivos de producción
+  publish = "dist"
+
+[build.environment]
+  # Versión de Node.js a usar
+  NODE_VERSION = "18"
+
+# Configuración de redirects para SPA (Single Page Application)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
