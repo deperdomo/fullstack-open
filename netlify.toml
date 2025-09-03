@@ -5,8 +5,8 @@
   # Comando para construir el proyecto
   command = "npm run build"
   
-  # Directorio donde se generan los archivos de producción
-  publish = "part2/phonebook/dist"
+  # Directorio donde se generan los archivos de producción (relativo al base)
+  publish = "dist"
 
 [build.environment]
   # Versión de Node.js a usar
