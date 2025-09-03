@@ -4,17 +4,26 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "lint": "eslint ."
   },
   "author": "Deivi Perdomo",
   "license": "ISC",
   "description": "Phonebook backend for Fullstack Open part 3",
   "dependencies": {
-  "express": "^4.18.2",
-  "morgan": "^1.10.0",
-  "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^4.18.2",
+    "mongodb": "^6.19.0",
+    "mongoose": "^8.18.0",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.34.0",
+    "@stylistic/eslint-plugin": "^5.3.1",
+    "eslint": "^9.34.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
     "nodemon": "^3.0.1"
   }
 }
